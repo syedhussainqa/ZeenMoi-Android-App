@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shussain.zeenmoi.Demo03">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/filledcircle"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/imageView15"
+        android:layout_toEndOf="@+id/imageView15"/>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/nonfilledcircle"
+        android:layout_alignTop="@+id/imageView14"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginLeft="101dp"
+        android:layout_marginStart="101dp"/>
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/nonfilledcircle"
+        android:layout_alignTop="@+id/imageView28"
+        android:layout_toRightOf="@+id/imageView28"
+        android:layout_toEndOf="@+id/imageView28"/>
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView14"
+        android:layout_toEndOf="@+id/imageView14"
+        android:layout_toRightOf="@+id/imageView14"
+        app:srcCompat="@drawable/nonfilledcircle"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/hair"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:lineSpacingExtra="10sp"
+        android:text="Don't feel like spending time doing your hair today?"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="16dp"
+        android:lineSpacingExtra="10sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Get a quick hair appointment with a hair dresser."
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="italic"/>
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/nonfilledcircle"
+        android:layout_alignTop="@+id/imageView15"
+        android:layout_alignLeft="@+id/imageView15"
+        android:layout_alignStart="@+id/imageView15"/>
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shussain.zeenmoi.SignupWrkFlo"
+    >
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:alpha="0.2"
+        app:srcCompat="@drawable/zeenmoilogo"
+        android:layout_alignBottom="@+id/btnUserSignup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnUserSignup"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="67dp"
+        android:elevation="0dp"
+        android:background="@drawable/button_rounded"
+        android:text="SIGN UP"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/imgBtnTwitter"
+        android:layout_alignStart="@+id/imgBtnTwitter"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnFb"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/imgBtnGoogle"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imgBtnGoogle"
+        android:layout_marginTop="74dp"
+        android:background="@drawable/image_button_rounded"
+        app:srcCompat="@drawable/facebook"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnGoogle"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imgBtnFb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        app:srcCompat="@drawable/google"
+        android:background="@drawable/image_button_rounded"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnTwitter"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/imgBtnFb"
+        android:layout_alignRight="@+id/imgBtnFb"
+        android:layout_below="@+id/imgBtnGoogle"
+        android:layout_marginTop="17dp"
+        app:srcCompat="@drawable/twitter"
+        android:background="@drawable/image_button_rounded"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgBtnTwitter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="OR"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+</RelativeLayout>

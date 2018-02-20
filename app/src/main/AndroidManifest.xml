@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.shussain.zeenmoi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/zeenmoi_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/zeenmoi_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Demo01"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Demo02"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Demo03">
+        </activity>
+        <activity android:name=".Demo04">
+        </activity>
+        <activity android:name=".Demo05">
+        </activity>
+        <activity android:name=".Demo06">
+        </activity>
+        <activity android:name=".Login01">
+        </activity>
+        <activity android:name=".SignupWrkFlo">
+        </activity>
+        <activity android:name=".UserSignupScreen01">
+        </activity>
+        <activity android:name=".SignUpScreen01">
+        </activity>
+        <activity android:name=".SignUpScreen02">
+        </activity>
+        <activity android:name=".WelcomeToZeenMoi">
+        </activity>
+        <activity android:name=".BeautyCardScreen01">
+        </activity>
+        <activity android:name=".BeautyCardScreen02">
+        </activity>
+        <activity android:name=".SetupWallet">
+        </activity>
+        <activity android:name=".BookAptScreen01">
+        </activity>
+        <activity android:name=".BookAptScreen02">
+        </activity>
+        <activity android:name=".BookAptScreen03">
+        </activity>
+        <activity android:name=".BookAptScreen04">
+        </activity>
+        <activity android:name=".BookAptScreen05">
+        </activity>
+    </application>
+
+</manifest>

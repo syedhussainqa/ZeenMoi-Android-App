@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shussain.zeenmoi.BookAptScreen05">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_rounded"
+        android:elevation="0dp"
+        android:text="Request you appointment"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:layout_below="@+id/timePicker"
+        android:layout_alignLeft="@+id/timePicker"
+        android:layout_alignStart="@+id/timePicker"
+        android:layout_marginTop="12dp"/>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:alpha="0.2"
+        app:srcCompat="@drawable/zeenmoilogo"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/textView39"
+        android:layout_alignStart="@+id/textView39"
+        android:layout_below="@+id/textView39"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_circle"
+        android:text="10 min"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignTop="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_circle"
+        android:text="20 min"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignEnd="@+id/textView39"
+        android:layout_alignRight="@+id/textView39"
+        android:layout_alignTop="@+id/button2"
+        android:background="@drawable/button_circle"
+        android:text="30 min"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Request Appointment in -"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="Or select a time"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="24sp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"/>
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="300dp"
+        android:layout_height="325dp"
+        android:layout_alignLeft="@+id/imageView13"
+        android:layout_alignStart="@+id/imageView13"
+        android:layout_below="@+id/textView40"
+        android:headerBackground="@android:color/holo_blue_light"/>
+</RelativeLayout>

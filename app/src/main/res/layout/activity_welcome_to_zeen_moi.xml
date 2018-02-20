@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shussain.zeenmoi.WelcomeToZeenMoi">
+
+    <ImageView
+        android:id="@+id/backImgZeenMoi"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="112dp"
+        android:alpha="0.2"
+        app:srcCompat="@drawable/zeenmoilogo"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/btnCreateBeautyCard"
+        android:layout_alignStart="@+id/btnCreateBeautyCard"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:text="Welcome to Zeen Moi"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/backImgZeenMoi"
+        android:layout_marginTop="26dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="OUR MISSION: To satisfy your beauty needs anytime you want at any given location\n\nOUR FOCUS: You darling! You are at the heart of our company and mission, your satisfaction is our number 1 priority!\n\nTo help us match you with the best beauty providers around you, tell us about your beauty preferences."
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnCreateBeautyCard"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_rounded"
+        android:elevation="0dp"
+        android:text="Create your beauty card"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/backImgZeenMoi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"/>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnCreateBeautyCard"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="Your personalized beauty Card is going to be used to only show beauty providers relevant to your unique needs, have fun with it and don't forget to update it from time to time!"
+        android:textAlignment="center"
+        android:textSize="12sp"/>
+</RelativeLayout>

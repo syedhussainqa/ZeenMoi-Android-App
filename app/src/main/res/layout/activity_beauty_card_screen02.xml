@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shussain.zeenmoi.BeautyCardScreen02">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:alpha="0.2"
+        app:srcCompat="@drawable/zeenmoilogo"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_blue_light"
+        android:text="Your Beauty Card"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView19"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="Tell us about your sexy nails!"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView20"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Select your current hair length"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnVLong"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/imageView7"
+        android:layout_alignStart="@+id/imageView7"
+        android:layout_alignTop="@+id/imageView7"
+        android:background="@drawable/button_circle"
+        android:text="Very Long"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/btnLong"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/imageView7"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_circle"
+        android:text="Long"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/btnBitLong"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignEnd="@+id/imageView7"
+        android:layout_alignRight="@+id/imageView7"
+        android:layout_alignTop="@+id/imageView7"
+        android:background="@drawable/button_circle"
+        android:text="A bit Long"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/btnClassic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/btnFrenchM"
+        android:layout_alignBottom="@+id/btnFrenchM"
+        android:layout_alignEnd="@+id/imageView7"
+        android:layout_alignRight="@+id/imageView7"
+        android:background="@drawable/button_circle"
+        android:text="Classic"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/btnNailArt"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_circle"
+        android:text="Nail Art"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"
+        android:layout_alignTop="@+id/btnArtiNail"
+        android:layout_alignRight="@+id/imageView7"
+        android:layout_alignEnd="@+id/imageView7"/>
+
+    <Button
+        android:id="@+id/btnPadicure"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/btnArtiNail"
+        android:layout_alignStart="@+id/btnArtiNail"
+        android:layout_below="@+id/imageView7"
+        android:background="@drawable/button_circle"
+        android:text="Pedicure"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/btnArtiNail"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_circle"
+        android:text="Artificial Nails"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"
+        android:layout_alignTop="@+id/btnGel"
+        android:layout_toRightOf="@+id/btnShort"
+        android:layout_toEndOf="@+id/btnShort"/>
+
+    <Button
+        android:id="@+id/btnFrenchM"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_circle"
+        android:text="French Manicure"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignLeft="@+id/imageView7"
+        android:layout_alignStart="@+id/imageView7"/>
+
+    <Button
+        android:id="@+id/btnGel"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_circle"
+        android:text="Gel"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"
+        android:layout_alignBottom="@+id/imageView7"
+        android:layout_alignLeft="@+id/imageView7"
+        android:layout_alignStart="@+id/imageView7"
+        android:layout_marginBottom="19dp"/>
+
+    <Button
+        android:id="@+id/btnVShort"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btnBitLong"
+        android:layout_toEndOf="@+id/btnLong"
+        android:layout_toRightOf="@+id/btnLong"
+        android:background="@drawable/button_circle"
+        android:text="Very Short"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/btnShort"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btnVLong"
+        android:layout_toEndOf="@+id/btnVLong"
+        android:layout_toRightOf="@+id/btnVLong"
+        android:background="@drawable/button_circle"
+        android:text="Short"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnNailArt"
+        android:layout_alignLeft="@+id/textView21"
+        android:layout_alignStart="@+id/textView21"
+        android:layout_marginBottom="34dp"
+        android:text="What are your nail preferences?"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnNextToWallet"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/button_rounded"
+        android:elevation="0dp"
+        android:text="Next >>"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

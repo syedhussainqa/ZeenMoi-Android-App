@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shussain.zeenmoi.BookAptScreen01">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:alpha="0.2"
+        app:srcCompat="@drawable/zeenmoilogo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Are you looking for a beauty appointment?"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="24sp"
+        android:layout_above="@+id/imageView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnToday"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/imageView9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/button_rounded"
+        android:elevation="0dp"
+        android:text="Today"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnLaterDate"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/textView35"
+        android:layout_alignLeft="@+id/btnToday"
+        android:layout_alignStart="@+id/btnToday"
+        android:background="@drawable/button_rounded"
+        android:elevation="0dp"
+        android:text="Later Date"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dp"
+        android:text="(From tomorrow onwards)"/>
+
+    <Button
+        android:id="@+id/btnHomeCall"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/btnLaterDate"
+        android:layout_alignStart="@+id/btnLaterDate"
+        android:layout_below="@+id/imageView9"
+        android:background="@drawable/button_rounded"
+        android:elevation="0dp"
+        android:text="Home Call"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnHomeCall"
+        android:layout_centerHorizontal="true"
+        android:text="(Invite the beauty pro to you)"/>
+
+</RelativeLayout>

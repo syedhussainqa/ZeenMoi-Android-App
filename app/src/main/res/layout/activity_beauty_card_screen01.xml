@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shussain.zeenmoi.BeautyCardScreen01">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:alpha="0.2"
+        app:srcCompat="@drawable/zeenmoilogo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_blue_light"
+        android:text="Your Beauty Card"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView17"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Tell us about your gorgeous hair!"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView18"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="Select your current hair length"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHORT -"
+        android:textColor="@android:color/holo_blue_light"
+        android:background="@drawable/textview_borders"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_toLeftOf="@+id/textView48"
+        android:layout_toStartOf="@+id/textView48"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnEarLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/earlength"
+        android:layout_marginRight="21dp"
+        android:layout_marginEnd="21dp"
+        android:layout_below="@+id/textView34"
+        android:layout_alignRight="@+id/textView46"
+        android:layout_alignEnd="@+id/textView46"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnShoulderLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView18"
+        android:layout_alignRight="@+id/textView18"
+        android:layout_alignTop="@+id/imgBtnEarLength"
+        app:srcCompat="@drawable/chinlength"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnNeckLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/shoulderlength"
+        android:layout_above="@+id/textView46"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView8"
+        android:layout_alignRight="@+id/imageView8"
+        android:layout_alignTop="@+id/imgBtnNeckLength"
+        android:layout_marginTop="31dp"
+        android:text="- MEDIUM"
+        android:textColor="@android:color/holo_blue_light"
+        android:background="@drawable/textview_borders"/>
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgBtnEarLength"
+        android:layout_alignLeft="@+id/imgBtnEarLength"
+        android:layout_alignStart="@+id/imgBtnEarLength"
+        android:text="Ear Length"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Shoulder Lenght"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="12sp"
+        android:layout_above="@+id/textView38"
+        android:layout_alignRight="@+id/imgBtnShoulderLength"
+        android:layout_alignEnd="@+id/imgBtnShoulderLength"/>
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView36"
+        android:layout_alignStart="@+id/textView36"
+        android:layout_below="@+id/textView46"
+        android:layout_marginTop="58dp"
+        android:text="LONG -"
+        android:textColor="@android:color/holo_blue_light"
+        android:background="@drawable/textview_borders"/>
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Neck Length"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="12sp"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnBackLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/armpitlength"
+        android:layout_below="@+id/textView46"
+        android:layout_alignLeft="@+id/textView42"
+        android:layout_alignStart="@+id/textView42"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnWaistLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/midbacklength"
+        android:layout_alignTop="@+id/imgBtnBackLength"
+        android:layout_alignRight="@+id/textView43"
+        android:layout_alignEnd="@+id/textView43"
+        />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgBtnBackLength"
+        android:layout_alignEnd="@+id/textView42"
+        android:layout_alignRight="@+id/textView42"
+        android:text="Mid-Back Length"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView48"
+        android:layout_alignBottom="@+id/textView48"
+        android:layout_alignLeft="@+id/imgBtnWaistLength"
+        android:layout_alignStart="@+id/imgBtnWaistLength"
+        android:text="Waist Length"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnStraight"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:text="Select your current hair texture"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnFrizzy"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignEnd="@+id/imageView8"
+        android:layout_alignRight="@+id/imageView8"
+        android:layout_below="@+id/imageView8"
+        android:background="@drawable/button_circle"
+        android:text="Frizzy"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/btnCurly"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imageView8"
+        android:layout_toLeftOf="@+id/textView38"
+        android:layout_toStartOf="@+id/textView38"
+        android:background="@drawable/button_circle"
+        android:text="Curly"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/btnStraight"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_circle"
+        android:text="Straight"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"
+        android:layout_below="@+id/imageView8"
+        android:layout_alignLeft="@+id/imageView8"
+        android:layout_alignStart="@+id/imageView8"/>
+
+    <Button
+        android:id="@+id/btnWavy"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/textView48"
+        android:layout_alignStart="@+id/textView48"
+        android:layout_below="@+id/imageView8"
+        android:background="@drawable/button_circle"
+        android:text="Wavy"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp"/>
+
+    <Button
+        android:id="@+id/btnNextNail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnStraight"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnStraight"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/button_rounded"
+        android:elevation="0dp"
+        android:text="Lets talk about your nails"
+        android:textColor="@android:color/background_light"/>
+
+</RelativeLayout>

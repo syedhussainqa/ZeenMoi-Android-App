@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shussain.zeenmoi.SignUpScreen02">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:alpha="0.2"
+        app:srcCompat="@drawable/zeenmoilogo"
+        android:layout_alignTop="@+id/textView10"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_blue_light"
+        android:text="User Profile"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView7"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="35dp"
+        android:text="We almost forgot..."
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="33dp"
+        android:text="Want that birthday offer?"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/textview_borders"
+        android:ems="10"
+        android:hint="MM/DD/YYYY"
+        android:inputType="date"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="31dp"
+        android:text="Want localised offers?"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="18sp"/>
+
+    <Spinner
+        android:id="@+id/countrySpinner"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="21dp"
+        />
+
+    <EditText
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/textview_borders"
+        android:hint="Enter a city where you work/study."
+        android:textSize="18sp"
+        android:layout_below="@+id/countrySpinner"
+        android:layout_alignLeft="@+id/countrySpinner"
+        android:layout_alignStart="@+id/countrySpinner"/>
+
+    <EditText
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_below="@+id/textView13"
+        android:layout_marginTop="21dp"
+        android:paddingRight="75dp"
+        android:background="@drawable/textview_borders"
+        android:hint="Enter a city where you live."
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="How would you like us to send your verification code?"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="18sp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnEmail"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        app:srcCompat="@drawable/email"
+        android:layout_below="@+id/textView15"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignEnd="@+id/textView8"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/image_button_rounded"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnPhone"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/imgBtnEmail"
+        android:layout_toEndOf="@+id/editText"
+        android:layout_toRightOf="@+id/editText"
+        android:background="@drawable/image_button_rounded"
+        app:srcCompat="@drawable/phone"/>
+</RelativeLayout>

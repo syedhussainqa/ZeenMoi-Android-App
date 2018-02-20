@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shussain.zeenmoi.Demo01">
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="17dp"
+        app:srcCompat="@drawable/filledcircle"
+        android:layout_toRightOf="@+id/imageView25"
+        android:layout_toStartOf="@+id/imageView26"
+        android:layout_toLeftOf="@+id/imageView26"/>
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/nonfilledcircle"
+        android:layout_alignTop="@+id/imageView24"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/nonfilledcircle"
+        android:layout_alignTop="@+id/imageView26"
+        android:layout_toRightOf="@+id/imageView26"
+        android:layout_toEndOf="@+id/imageView26"/>
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/nonfilledcircle"
+        android:layout_alignTop="@+id/imageView29"
+        android:layout_toRightOf="@+id/imageView29"
+        android:layout_toEndOf="@+id/imageView29"/>
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/nonfilledcircle"
+        android:layout_alignTop="@+id/imageView24"
+        android:layout_toLeftOf="@+id/imageView24"
+        android:layout_toStartOf="@+id/imageView24"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:lineSpacingExtra="10sp"
+        android:text="Just chipped your nail and you have an important meeting in a few hours?"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="16dp"
+        android:lineSpacingExtra="10sp"
+        android:text="Book a last minute nail service around you."
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="italic"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/nail"/>
+
+</RelativeLayout>

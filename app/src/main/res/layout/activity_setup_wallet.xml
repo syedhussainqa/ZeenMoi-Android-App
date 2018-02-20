@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shussain.zeenmoi.SetupWallet">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/holo_blue_light"
+        android:text="User Profile"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView22"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="Set up your wallet"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="20sp"/>
+
+    <ImageButton
+        android:id="@+id/imgbtnWallet"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/wallet"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/textView25"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView24"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="We highly recommend you to enter your payment information now so you're all set to start using the App and attend your 1st beauty appointment with us!"
+        android:textAlignment="center"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"/>
+
+    <Button
+        android:id="@+id/btnSkip"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imgbtnWallet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/button_rounded"
+        android:elevation="0dp"
+        android:text="Skip >>"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
